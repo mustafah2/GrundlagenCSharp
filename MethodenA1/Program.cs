@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace ArrayA1
+namespace MethodenA1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("");
+            Console.WriteLine("Hello World!");
         }
     }
 }
