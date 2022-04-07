@@ -35,14 +35,24 @@ namespace MethodenA1
             Console.WriteLine("/nAnzahl der Buchstaben:{0}", anzahl);
 
 
+
+
+
+
         }
         static int ausgabeTextMalX(string text, int zahl)
         {
-            for (int i = 0; i < text.Length; i++)
+            int n = 0;
+            int m = 0;
+            n = text.Length;
+            m = zahl;
+            m *= n;
+            Console.WriteLine(m);
+
+            for (int i = 0; i < zahl; i++)
             {
                 Console.WriteLine(text);
 
-                zahl = text.Length * i;
      
             }
 
